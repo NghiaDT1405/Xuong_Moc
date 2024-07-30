@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+	<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<!-- Slick -->
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick.css" />
+	<link rel="stylesheet" type="text/css" href="slick/slick/slick-theme.css" />
+    <!-- W3SCHOOL -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- form, notify,slick -->
+    <div id="main-content" class="wrap">
+        <!-- Header -->
+        <header class="">
+			<nav class="container">
+				<div class="logo">
+					<a href="index.html"><img src="logo/logo.png" alt="Xưởng mộc giá tốt hoàng hoan"></a>
+				</div>
+				<div class="menu" data-show="0">
+					<div class="d-flex h-100 justify-content-center align-items-center">
+						<ul>
+							<li><a href="index.html"> Trang chủ </a></li>
+							<li><a href="about.html"> Giới thiệu </a></li>
+							<li class="active"><a href="product.html"> Sản phẩm </a></li>
+							<li><a href="news.html"> Tin tức </a></li>
+							<li><a href="partner.html"> Đối tác </a></li>
+							<li><a href="contact.html"> Liên hệ </a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+     <!-- Header -->
+
+     <!-- Banner -->
+    <div class="banner">
+        <div class="banner-product">
+			<div class="banner-prod">
+				<div class="item">
+					<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>
+					<img src="imgs/banner/banner-san-pham.png">
+                    <div class="content-box-prd-banner" style="margin-left: 60%;">
+                        <h2 class="text-uppercase header-prd-banner">
+                            <span>TRẢI NGHIỆM</span><br>không gian hiện đại
+                        </h2>
+                        <div class="right-aligned">
+                            <a href="#" class="text-uppercase btn-prd-banner "> Liên hệ ngay </a>
+                        </div>
+                    </div>
+					<div class="slick-next"><i class="fa fa-chevron-right"></i></div>
+				</div>
+
+                <!-- <div class="item">
+					<div class="slick-prev"><i class="fa fa-chevron-left"></i></div>
+					<img src="imgs/banner/banner-san-pham.png">
+                    <div class="content-box-prd-banner" style="margin-left: 60%;">
+                        <h2 class="text-uppercase header-prd-banner">
+                            <span>TRẢI NGHIỆM</span><br>không gian hiện đại
+                        </h2>
+                        <div class="right-aligned">
+                            <a href="#" class="text-uppercase btn-prd-banner "> Liên hệ ngay </a>
+                        </div>
+                    </div>
+					<div class="slick-next"><i class="fa fa-chevron-right"></i></div>
+				</div> -->
+			</div>
+		</div>
+    </div>
+    
+    <!-- Main Content -->
+
+    <div class="all-product-wrap container">
+        <nav class="nav-lv-1 ">
+            <li class=""><a class="" href="#">Chọn mức giá: </a></li>
+            <li class=""><a class="option" href="#">Dưới 5 triệu</a></li>
+            <li class=""><a class="option" href="#">5-10 triệu</a></li>
+            <li class=""><a class="option" href="#">10-15 triệu</a></li>
+            <li class=""><a class="option" href="#">Trên 15 triệu</a></li>
+            <li class="prd-tag">
+                <a class="" href="#">
+                    Sắp xếp
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="nav-lv-2" >
+                    <li><a href="#">Mới nhất</a></li>
+                    <li><a href="#">Phổ biến nhất</a></li>
+                    <li><a href="#">Giá cao đến thấp</a></li>
+                    <li><a href="#">Giá thấp đến cao</a></li>
+                </ul>
+            </li>
+        </nav>
+
+        <div class="list-product">
+            <div class="d-flex justify-content-between box-title">
+                <h2 class="header-prod"> PHÒNG KHÁCH </h2>
+            </div>
+
+            <div class="box-product">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ban-uong-nuoc.png" alt="Bàn uống nước">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Bàn uống nước</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ sồi, Gỗ lim, Gỗ mít) </p>
+
+                                <p class="price"> <span>0</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ban-uong-nuoc-2.png" alt="BÀN UỐNG NƯỚC 2">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> BÀN UỐNG NƯỚC 2</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(Size vừa, Gỗ sồi) </p>
+
+                                <p class="price"> <span>3.999.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ke-ti-vi.png" alt="Kệ TV">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Kệ TV</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ lim) </p>
+
+                                <p class="price"> <span>12.899.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ke-de-do.png" alt="Kệ để đồ">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Kệ để đồ</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ lim) </p>
+
+                                <p class="price"> <span>12.999.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ban-uong-nuoc.png" alt="Bàn uống nước">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Bàn uống nước</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ sồi, Gỗ lim, Gỗ mít) </p>
+
+                                <p class="price"> <span>0</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ban-uong-nuoc-2.png" alt="BÀN UỐNG NƯỚC 2">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> BÀN UỐNG NƯỚC 2</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(Size vừa, Gỗ sồi) </p>
+
+                                <p class="price"> <span>3.999.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ke-ti-vi.png" alt="Kệ TV">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Kệ TV</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ lim) </p>
+
+                                <p class="price"> <span>12.899.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ke-de-do.png" alt="Kệ để đồ">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Kệ để đồ</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ lim) </p>
+
+                                <p class="price"> <span>12.999.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ban-uong-nuoc.png" alt="Bàn uống nước">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Bàn uống nước</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ sồi, Gỗ lim, Gỗ mít) </p>
+
+                                <p class="price"> <span>0</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ban-uong-nuoc-2.png" alt="BÀN UỐNG NƯỚC 2">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> BÀN UỐNG NƯỚC 2</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(Size vừa, Gỗ sồi) </p>
+
+                                <p class="price"> <span>3.999.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ke-ti-vi.png" alt="Kệ TV">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Kệ TV</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ lim) </p>
+
+                                <p class="price"> <span>12.899.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="product">
+                            <div class="img">
+                                <img src="imgs/AnhCat/san-pham/phong-khach-ke-de-do.png" alt="Kệ để đồ">
+                            </div>
+                            <div class="info">
+                                <p class="name"> <a href="#"> Kệ để đồ</a>   </p>
+                                <p class="vote">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </p>
+                                <p class="desc">(4 ngăn, Gỗ lim) </p>
+
+                                <p class="price"> <span>12.999.000</span> VNĐ </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination d-flex justify-content-center">
+					<ul class="d-flex"><li class="active" data-page="1"> 1 </li></ul>
+					<ul class="d-flex"><li data-page="1"> 2 </li></ul>
+					<ul class="d-flex"><li data-page="1"> 3 </li></ul>
+					<ul class="d-flex"><li data-page="1"> 4 </li></ul>
+				</div>
+                
+            </div>
+        </div>
+    </div>
+	<!-- FOOTER -->
+	<footer class="w-100" style="background:#363636">
+		<div class="container">
+			<div class="row mt-3 mb-3">
+				<div class="col-md-6">
+					<h5>
+						THÔNG TIN CHUNG
+						<span class="line-remove" style="width: 78px; "></span>
+					</h5>
+					<h4 class="mt-2 pt-2 com-name">CÔNG TY TNHH HOÀNG HOAN</h4>
+					<p class="com-phone">
+						<i class="fas fa-phone-alt"></i>
+						<a href="#" title="0999.999.999">0999 999 999</a>
+					</p>
+					<p class="com-email">
+						<i class="fas fa-envelope"></i>
+						<a href="#" title="cskh@hoanghoan.vn">cskh@hoanghoan.vn</a>
+					</p>
+					<address class="com-address">
+						<i style="width: 22px;" class="fas fa-map-marker-alt"></i>Số 1, Nguyễn Trãi, Thanh Xuân, Hà
+						Nội
+					</address>
+				</div>
+				<div class="col-md-3">
+					<h5>
+						VỀ CHÚNG TÔI
+						<span class="line-remove" style="width: 78px; "></span>
+					</h5>
+					<ul>
+						<li><a href="about.html" title="Giới thiệu">Giới thiệu</a></li>
+						<li><a href="product.html" title="Sản phẩm">Sản phẩm</a></li>
+						<li><a href="news.html" title="Tin tức">Tin tức</a></li>
+						<li><a href="partner.html" title="Đối tác">Đối tác</a></li>
+						<li><a href="contact.html" title="Liên hệ">Liên hệ</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h5>
+						KẾT NỐI VỚI CHÚNG TÔI
+						<span class="line-remove" style="width: 78px; "></span>
+					</h5>
+					<div class="mt-4 social-icon">
+						<a href="#" target="_blank">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+						<a href="#" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+						<a href="#" target="_blank">
+							<i class="far fa-envelope"></i>
+						</a>
+					</div>
+                    <div class="check-icon">
+						<img src="imgs/AnhCat/dathongbao.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+		
+    </div>
+	<!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+
+	<!-- Jquery -->
+  
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+    <!-- Slick -->
+	<script type="text/javascript" src="slick/slick/slick.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+	crossorigin="anonymous"></script>
+    
+	<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>
